@@ -33,8 +33,8 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <h1 className="h2 mb-4">HỌC NHANH MÀ KHÔNG MỆT</h1>
+            <p className="text-xl text-gray-600">Học theo thứ tự, không phải suy nghĩ nhiều, tập trung trong 3 ngày.</p>
           </div>
 
           {/* Section content */}
@@ -43,9 +43,9 @@ function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
-                <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-              </div>
+                <h3 className="h3 mb-3">3 Bước để học qua 600 câu</h3>
+                <p className="text-xl text-gray-600">Không biết bắt đầu như nào, học như nào cho hiệu quả. Học theo thứ tự sau để có kết quả <strong> Nhanh - Hiệu quả - Không mệt </strong> </p>
+              </div> 
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
@@ -54,8 +54,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(1); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">1. Học các mẹo trước </div>
+                    <div className="text-gray-600">Mẹo nhớ là cách nhanh nhất để làm bài, tất cả các mẹo đều có câu hỏi để bạn nhớ nhanh gấp 3 lần.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +69,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(2); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">2. Làm 8 chủ đề</div>
+                    <div className="text-gray-600">Sau khi làm hết các meo, bạn đã nhớ 50%, tiếp theo làm các câu theo chủ đề  .</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
@@ -84,8 +84,8 @@ function Features() {
                   onClick={(e) => { e.preventDefault(); setTab(3); }}
                 >
                   <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Building the Simple ecosystem</div>
-                    <div className="text-gray-600">Take collaboration to the next level with security and administrative features built for teams.</div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">3. Các câu làm sai</div>
+                    <div className="text-gray-600">Sau khi làm các chủ đề, những câu sai sẽ được gom lại, vào đó làm khi nào không còn câu sai nào bạn nhớ được 70%.</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg className="w-3 h-3 fill-current" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

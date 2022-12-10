@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Footer() {
+  return (<footer></footer>);
   return (
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">

@@ -37,7 +37,7 @@ function Header() {
           </div>
 
           {/* Site navigation */}
-          <nav className="flex flex-grow">
+          {/* <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link to="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sign in</Link>
@@ -52,7 +52,7 @@ function Header() {
               </li>
             </ul>
 
-          </nav>
+          </nav> */}
 
         </div>
       </div>
